@@ -32,6 +32,9 @@ with st.container():
         st.write(' ')
     st.title("FitPal")
     st.sidebar.success("You are at our Home Page!!")
+    st.write("##")
+    st.sidebar.subheader(
+        "The road to fitness isn't a sprint, it's a marathon. Lace up, take a breath, and set your pace.")
     left_column, right_column = st.columns((2, 1))
     with left_column:
         st.subheader("Introducing FitPal: Your Personal Fitness Companion")
